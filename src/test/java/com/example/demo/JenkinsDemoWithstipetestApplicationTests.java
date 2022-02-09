@@ -10,7 +10,7 @@ class JenkinsDemoWithstipetestApplicationTests {
 	private static Logger loger=org.slf4j.LoggerFactory.getLogger(JenkinsDemoWithstipetestApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	public contextLoads() {
 		loger.info("Test case executed==============================================");
 		assertEquals(true,true);
 	}
